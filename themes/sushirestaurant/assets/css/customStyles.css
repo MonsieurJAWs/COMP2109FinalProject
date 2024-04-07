@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* Global styling */
+/* Set base font sizes/characteristics for the entire html document */
+html {
+  font-size: 120%;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+  margin-top: 0 !important;
+}
+
+body {
+  margin: 0;
+  /* Prevent screen bounce */
+  overscroll-behavior: none;
+  background: #F1F3F4 !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Add a background color to the header and footer */
+.navbar, footer {
+    background-color: #E27D5E;
+}
+
+/* Change the navbar link on hover colours */
+a:hover {
+  color: #05C7F2;
+}
+
+/* Adjust nav link items */
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header a, footer a {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Adjust footer logo */
+footer figure img {
+  height: 100px;
+  width: 100px;
+}
+
+/* Menu page styling */
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Cart page styling */ 
+.woocommerce-cart-form {
+  float: left;
+  width: 48%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+  padding-top: 1.3%;
+  padding-right: 5%;
+}
+
+.wc-block-grid__products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.woocommerce {
+  text-align: center;
+}
+
+/* Checkout page styling */
+.checkout {
+  display: inline-block;
+  padding: 2%;
+}
+
+.wp-block-woocommerce-checkout {
+  margin: 5% !important;
+}
+
+/* My account page styling */
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+  display: inline-block;
+  width: 50%;
+}
+
+.woocommerce form .show-password-input, .woocommerce-page form .show-password-input {
+  top: 0;
+}
+
+.general-masthead {
+  text-align: center;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    text-align: justify;
+    margin-top: 5%;
+}
+
+/* Product page styling */
+.site-main {
+  display: inline-block;
+  width: 50%;
+}
+
+.woocommerce div.product div.images img {
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.woocommerce div.product div.summary {
+    text-align: left;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+    text-align: left;
+}
+
+#sidebar {
+  display: none;
+}
+
+/* Posts pages */
+.post_list {
+  display: none;
+}
+
+.post-masthead h1 {
+  text-align: center;
+}
